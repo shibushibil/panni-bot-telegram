@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/shibushibil/telegramequition/main/qna_chitchat_professional.tsv?token=GHSAT0AAAAAABVU6HUE7ZMVYERVAULJGLPSYVKEURQ"
+url = "https://raw.githubusercontent.com/shibushibil/telegramequition/main/qna_chitchat_professional.tsv?token=GHSAT0AAAAAABVU6HUE5XVLBQYJV54DWRCMYVKFHHA"
 
 df = pd.read_csv(url, sep="\t")
 
